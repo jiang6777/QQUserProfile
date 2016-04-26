@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		9F68AE521CC89E5D003A8694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE511CC89E5D003A8694 /* main.m */; };
 		9F68AE551CC89E5D003A8694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE541CC89E5D003A8694 /* AppDelegate.m */; };
-		9F68AE581CC89E5D003A8694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE571CC89E5D003A8694 /* ViewController.m */; };
 		9F68AE5B1CC89E5D003A8694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE591CC89E5D003A8694 /* Main.storyboard */; };
 		9F68AE5D1CC89E5D003A8694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE5C1CC89E5D003A8694 /* Assets.xcassets */; };
 		9F68AE601CC89E5D003A8694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE5E1CC89E5D003A8694 /* LaunchScreen.storyboard */; };
+		9F68AE6D1CC89F5F003A8694 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE6B1CC89F5F003A8694 /* MasterViewController.m */; };
+		9F68AE6E1CC89F5F003A8694 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE6C1CC89F5F003A8694 /* MasterViewController.xib */; };
+		9F68AE711CC8A536003A8694 /* 风景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE701CC8A536003A8694 /* 风景图.jpg */; };
+		9F68AE741CC8A7C9003A8694 /* IndividualLabelMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE731CC8A7C9003A8694 /* IndividualLabelMenu.m */; };
+		9F68AE771CC8C16B003A8694 /* QQProfileMagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE761CC8C16B003A8694 /* QQProfileMagicView.m */; };
+		9F8E54CE1CCDBF20007832D7 /* QQHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E54CD1CCDBF20007832D7 /* QQHeaderView.m */; };
+		9F8E54D01CCDE14F007832D7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F8E54CF1CCDE14F007832D7 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,21 @@
 		9F68AE511CC89E5D003A8694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F68AE531CC89E5D003A8694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F68AE541CC89E5D003A8694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F68AE561CC89E5D003A8694 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F68AE571CC89E5D003A8694 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F68AE5A1CC89E5D003A8694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F68AE5C1CC89E5D003A8694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F68AE5F1CC89E5D003A8694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F68AE611CC89E5D003A8694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F68AE6A1CC89F5F003A8694 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9F68AE6B1CC89F5F003A8694 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9F68AE6C1CC89F5F003A8694 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		9F68AE701CC8A536003A8694 /* 风景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景图.jpg"; sourceTree = "<group>"; };
+		9F68AE721CC8A7C9003A8694 /* IndividualLabelMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndividualLabelMenu.h; sourceTree = "<group>"; };
+		9F68AE731CC8A7C9003A8694 /* IndividualLabelMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndividualLabelMenu.m; sourceTree = "<group>"; };
+		9F68AE751CC8C16B003A8694 /* QQProfileMagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQProfileMagicView.h; sourceTree = "<group>"; };
+		9F68AE761CC8C16B003A8694 /* QQProfileMagicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQProfileMagicView.m; sourceTree = "<group>"; };
+		9F8E54CC1CCDBF20007832D7 /* QQHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQHeaderView.h; sourceTree = "<group>"; };
+		9F8E54CD1CCDBF20007832D7 /* QQHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQHeaderView.m; sourceTree = "<group>"; };
+		9F8E54CF1CCDE14F007832D7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,13 @@
 		9F68AE4F1CC89E5D003A8694 /* QQUserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				9F68AE671CC89E94003A8694 /* Controllers */,
+				9F68AE681CC89E94003A8694 /* Models */,
+				9F68AE691CC89E94003A8694 /* Views */,
+				9F68AE6F1CC8A536003A8694 /* Images */,
 				9F68AE531CC89E5D003A8694 /* AppDelegate.h */,
 				9F68AE541CC89E5D003A8694 /* AppDelegate.m */,
-				9F68AE561CC89E5D003A8694 /* ViewController.h */,
-				9F68AE571CC89E5D003A8694 /* ViewController.m */,
+				9F8E54CF1CCDE14F007832D7 /* 1.jpg */,
 				9F68AE591CC89E5D003A8694 /* Main.storyboard */,
 				9F68AE5C1CC89E5D003A8694 /* Assets.xcassets */,
 				9F68AE5E1CC89E5D003A8694 /* LaunchScreen.storyboard */,
@@ -77,6 +95,45 @@
 				9F68AE511CC89E5D003A8694 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F68AE671CC89E94003A8694 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F68AE6A1CC89F5F003A8694 /* MasterViewController.h */,
+				9F68AE6B1CC89F5F003A8694 /* MasterViewController.m */,
+				9F68AE6C1CC89F5F003A8694 /* MasterViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F68AE681CC89E94003A8694 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F68AE691CC89E94003A8694 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F68AE751CC8C16B003A8694 /* QQProfileMagicView.h */,
+				9F68AE761CC8C16B003A8694 /* QQProfileMagicView.m */,
+				9F68AE721CC8A7C9003A8694 /* IndividualLabelMenu.h */,
+				9F68AE731CC8A7C9003A8694 /* IndividualLabelMenu.m */,
+				9F8E54CC1CCDBF20007832D7 /* QQHeaderView.h */,
+				9F8E54CD1CCDBF20007832D7 /* QQHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F68AE6F1CC8A536003A8694 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F68AE701CC8A536003A8694 /* 风景图.jpg */,
+			);
+			name = Images;
+			path = Views/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +167,7 @@
 				TargetAttributes = {
 					9F68AE4C1CC89E5D003A8694 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FD4PJ7N7A9;
 					};
 				};
 			};
@@ -136,7 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F68AE711CC8A536003A8694 /* 风景图.jpg in Resources */,
+				9F68AE6E1CC89F5F003A8694 /* MasterViewController.xib in Resources */,
 				9F68AE601CC89E5D003A8694 /* LaunchScreen.storyboard in Resources */,
+				9F8E54D01CCDE14F007832D7 /* 1.jpg in Resources */,
 				9F68AE5D1CC89E5D003A8694 /* Assets.xcassets in Resources */,
 				9F68AE5B1CC89E5D003A8694 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F68AE581CC89E5D003A8694 /* ViewController.m in Sources */,
 				9F68AE551CC89E5D003A8694 /* AppDelegate.m in Sources */,
+				9F68AE771CC8C16B003A8694 /* QQProfileMagicView.m in Sources */,
+				9F68AE6D1CC89F5F003A8694 /* MasterViewController.m in Sources */,
+				9F8E54CE1CCDBF20007832D7 /* QQHeaderView.m in Sources */,
+				9F68AE741CC8A7C9003A8694 /* IndividualLabelMenu.m in Sources */,
 				9F68AE521CC89E5D003A8694 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +327,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QQUserProfile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.QQUserProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QQUserProfile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.QQUserProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +368,7 @@
 				9F68AE661CC89E5D003A8694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

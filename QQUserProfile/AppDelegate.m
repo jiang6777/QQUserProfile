@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MasterViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[MasterViewController alloc] init];
+    /*
+     CAKeyframeAnimation *positionAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+     positionAnimation.duration = kDuration;
+     positionAnimation.path = bezierPath.CGPath;
+     positionAnimation.delegate = self;
+     [positionAnimation setValue:valueString forKey:@"expand"];
+     positionAnimation.fillMode = kCAFillModeForwards;
+     positionAnimation.autoreverses = false;
+     positionAnimation.removedOnCompletion = NO;
+     positionAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+     */
     return YES;
 }
 

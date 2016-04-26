@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QQProfileMagicView.h
 //  QQUserProfile
 //
 //  Created by hejiangshan on 16/4/21.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface QQProfileMagicView : UIView
 
+- (instancetype)initWithContents:(NSArray *)contents;
 
 @end
-
