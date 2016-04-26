@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5C1C571CCF49AB004F4BBD /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F5C1C561CCF49AB004F4BBD /* 1.gif */; };
 		9F68AE521CC89E5D003A8694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE511CC89E5D003A8694 /* main.m */; };
 		9F68AE551CC89E5D003A8694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F68AE541CC89E5D003A8694 /* AppDelegate.m */; };
 		9F68AE5B1CC89E5D003A8694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68AE591CC89E5D003A8694 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5C1C561CCF49AB004F4BBD /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		9F68AE4D1CC89E5D003A8694 /* QQUserProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQUserProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F68AE511CC89E5D003A8694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F68AE531CC89E5D003A8694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		9F68AE6F1CC8A536003A8694 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F5C1C561CCF49AB004F4BBD /* 1.gif */,
 				9F68AE701CC8A536003A8694 /* 风景图.jpg */,
 			);
 			name = Images;
@@ -198,6 +201,7 @@
 				9F68AE6E1CC89F5F003A8694 /* MasterViewController.xib in Resources */,
 				9F68AE601CC89E5D003A8694 /* LaunchScreen.storyboard in Resources */,
 				9F8E54D01CCDE14F007832D7 /* 1.jpg in Resources */,
+				9F5C1C571CCF49AB004F4BBD /* 1.gif in Resources */,
 				9F68AE5D1CC89E5D003A8694 /* Assets.xcassets in Resources */,
 				9F68AE5B1CC89E5D003A8694 /* Main.storyboard in Resources */,
 			);
